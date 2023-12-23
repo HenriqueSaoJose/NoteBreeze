@@ -1,0 +1,20 @@
+{
+  "version": "5",
+  "dialect": "pg",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1703294920537,
+      "tag": "0000_dusty_silver_surfer",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1703296083564,
+      "tag": "0001_woozy_lady_vermin",
+      "breakpoints": true
+    }
+  ]
+}
