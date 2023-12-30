@@ -1,5 +1,6 @@
+'use client'
+import { Button } from '@/components/button'
 import TitleSection from '@/components/landingPage/titleSection'
-import { Button } from '@/components/ui/button'
 import React from 'react'
 
 const HomePage = () => {
@@ -10,9 +11,13 @@ const HomePage = () => {
           pill="✨ your workspace, Perfected"
           title="All in one Colllaboration and Porductivity platoform"
         />
-      <div className="bg-white p-[2px] mt-6 rounded-xl bg-gradient-to-r bg-purple-700 to-brand-bg-purple-950 sm:w-[300px]">
-        <Button variant={"secondary"} className='w-full rounded-[10px] p-6 text-2xl bg-black'>Get NoteBreeze free</Button>
+      <div className=" p-[2px] mt-6 rounded-xl bg-gradient-to-r bg-purple-700 to-brand-bg-purple-950 sm:w-[300px]">
+        <Button title='Enviar' type='Button-1' event={()=>{
+          console.log('oi')
+        }} style='w-full p-3 text-xl rounded-[10px] bg-background'/>
       </div>
+      <div className='md-mt[-90px] sm:w-full w-[750px] flex justify-center items-center sm:ml-0  ml-[-50px]'></div>
+        <Image src={} alt='banner'/>
       </div>
     </section>
   )
