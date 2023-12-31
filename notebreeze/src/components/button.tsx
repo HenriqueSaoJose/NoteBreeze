@@ -10,7 +10,7 @@ interface ButtonProps {
 }
 export const Button: React.FC<ButtonProps> = ({ title, type, color, event, size,style }) => {
    if(type == 'Button-1'){
-      return <button onClick={event} className={`cursor-pointer transition-all bg-purple-900 text-white  rounded-lg
+      return <button onClick={event} className={`cursor-pointer transition-all bg-purple-950 text-white  rounded-lg
       border-purple-950
       border-b-[4px] hover:brightness-110 hover:-translate-y-[1px] hover:border-b-[6px]
       active:border-b-[2px] active:brightness-90 active:translate-y-[2px] ${style}`} >
